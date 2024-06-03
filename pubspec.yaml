@@ -1,0 +1,33 @@
+name: otp_verification_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  firebase_auth: ^4.20.0
+  firebase_database: ^10.5.7
+  firebase_storage: ^11.7.7
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.5
+  get: ^4.6.6
+  image_picker: ^0.8.4+3
+  intl: ^0.19.0
+  pinput: ^4.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/illustration-2.png
+     - assets/images/illustration-3.png
+ 
+
